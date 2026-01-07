@@ -154,7 +154,7 @@ with st.container():
 st.markdown("---")
 
 # Calculate
-if st.button("📊 원천징수 계산하기", use_container_width=True):
+if st.button("📊 원천징수 계산하기GO", use_container_width=True):
 
     federal, ss, medicare, total, net, rate = calculate_annual_withholding(
         annual_salary,
